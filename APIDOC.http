@@ -1,0 +1,63 @@
+### 1. STUDENT GRADE API — POST
+
+POST http://127.0.0.1:8000/student-grade/
+Content-Type: application/json
+
+{
+"name": "Althaf",
+"mark1": 95,
+"mark2": 90,
+"mark3": 85
+}
+
+### 2. GET ALL STUDENTS — GET
+
+GET http://127.0.0.1:8000/student/
+
+### 3. ADD A STUDENT — POST
+
+POST http://127.0.0.1:8000/student/
+Content-Type: application/json
+
+{
+"name": "Althaf",
+"age": 22,
+"place": "Thiruvalla",
+"email": "althafjalal@gmail.com",
+"phone": "9876543210",
+"course": "Computer Science"
+}
+
+### 4. GET ALL COURSES — GET
+
+GET http://127.0.0.1:8000/course/
+
+### 5. ADD A COURSE — POST
+
+POST http://127.0.0.1:8000/course/
+Content-Type: application/json
+
+{
+"course_name": "B.Tech Computer Science",
+"university": "KTU",
+"duration": "4 Years",
+"department": "Computer Science and Engineering",
+"semester": 8
+}
+
+### 6. GET ALL STUDENT MARKS — GET
+
+GET http://127.0.0.1:8000/marks/
+
+### 7. ADD STUDENT MARKS — POST
+
+POST http://127.0.0.1:8000/marks/
+Content-Type: application/json
+
+{
+"student_id": 1,
+"name": "Althaf",
+"python": 90,
+"django": 85,
+"database": 95
+}
